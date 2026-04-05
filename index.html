@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horsemen Group | Building Businesses. Shaping Systems.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+        }
+        /* Horsemen Fiery Gradient */
+        .hero-gradient { 
+            background: linear-gradient(135deg, #b91c1c 0%, #f97316 50%, #fbbf24 100%); 
+        }
+        .shadow-text {
+            text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .pillar-img {
+            transition: transform 0.5s ease-out, filter 0.5s ease-out;
+        }
+        .group:hover .pillar-img {
+            transform: scale(1.05);
+            filter: contrast(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-950">
+
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-3xl font-extrabold tracking-tighter text-slate-950">
+                HORSEMEN<span class="text-red-700">.</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-semibold text-xs uppercase tracking-widest text-slate-700">
+                <a href="#about" class="hover:text-red-600 transition">About</a>
+                <a href="#services" class="hover:text-orange-600 transition">Pillars</a>
+                <a href="#updates" class="hover:text-amber-600 transition">Intelligence</a>
+                <a href="#partners" class="hover:text-red-600 transition">Partners</a>
+                <a href="#contact" class="bg-slate-950 text-white px-6 py-2.5 rounded-full hover:bg-red-700 transition duration-300 shadow-md">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient text-white py-28 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-7 tracking-tighter leading-tight shadow-text">Building Businesses.<br>Shaping Systems.</h1>
+            <p class="text-xl text-white/90 mb-12 max-w-2xl mx-auto leading-relaxed font-medium">
+                Infrastructure. Intelligence. Integrity. We don’t do generic advice. We build dynamic engines that scale.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-5">
+                <a href="#services" class="bg-slate-950 hover:bg-white hover:text-slate-950 text-white px-9 py-4 rounded-lg font-semibold transition duration-300 shadow-xl">Explore Our Pillars</a>
+                <a href="#updates" class="border-2 border-white/50 hover:border-white hover:bg-white/10 text-white px-9 py-4 rounded-lg font-semibold transition duration-300">Market Intelligence</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="updates" class="bg-amber-400 border-b border-amber-500 py-3.5 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 flex items-center">
+            <span class="bg-slate-950 text-white text-[10px] font-bold px-2.5 py-1.5 rounded mr-5 uppercase tracking-wider shrink-0">LATEST UPDATE</span>
+            <marquee class="text-sm text-slate-950 font-semibold uppercase tracking-wide">
+                New Regulation: Digital Transformation Incentives 2026 • Market Insight: Scaling Infrastructure in Emerging Markets • Private Equity Trends 2026 • Horsemen Padel: Open Tournament Registration Coming Soon...
+            </marquee>
+        </div>
+    </div>
+
+    <section id="services" class="py-24 px-6 bg-gray-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <p class="text-red-700 font-bold text-sm uppercase tracking-widest mb-3">Our Ecosystem</p>
+                <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-950">Three Pillars. One Force.</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                
+                <div class="group p-10 bg-white rounded-3xl shadow-lg border border-gray-100 hover:border-red-500 transition-all duration-500 hover:-translate-y-3 overflow-hidden">
+                    <div class="h-60 rounded-2xl mb-8 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=600&auto=format&fit=crop" alt="Consulting" class="pillar-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-red-950/20 mix-blend-multiply"></div>
+                        <div class="absolute top-4 left-4 w-12 h-12 bg-red-700 text-white font-bold text-xl flex items-center justify-center rounded-xl">01</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-5 text-slate-950 tracking-tight">Horsemen Consulting</h3>
+                    <p class="text-slate-700 leading-relaxed text-sm">
+                        Adaptive. Trusted. Built on Integrity. We handle tax, regulatory compliance, and business architecture the way it should be done—clean, efficient, and structured. By combining experience with AI, we simplify complexity and enable better financial decisions.
+                    </p>
+                </div>
+
+                <div class="group p-10 bg-white rounded-3xl shadow-lg border border-gray-100 hover:border-orange-500 transition-all duration-500 hover:-translate-y-3 overflow-hidden">
+                    <div class="h-60 rounded-2xl mb-8 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop" alt="Private Equity" class="pillar-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-orange-950/20 mix-blend-multiply"></div>
+                        <div class="absolute top-4 left-4 w-12 h-12 bg-orange-600 text-white font-bold text-xl flex items-center justify-center rounded-xl">02</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-5 text-slate-950 tracking-tight">Horsemen Private Equity</h3>
+                    <p class="text-slate-700 leading-relaxed text-sm">
+                        We build value where others see risk. We step into companies that are underperforming—or close to breaking—and rebuild them into robust assets. This isn’t passive investing. This is hands-on structural and operational transformation.
+                    </p>
+                </div>
+
+                <div class="group p-10 bg-white rounded-3xl shadow-lg border border-gray-100 hover:border-amber-500 transition-all duration-500 hover:-translate-y-3 overflow-hidden">
+                    <div class="h-60 rounded-2xl mb-8 overflow-hidden relative">
+                        <img src="https://i0.wp.com/zaloraadmin.wpcomstaging.com/wp-content/uploads/2025/10/Rekomendasi-Raket-Padel-Terbaik.png?w=1200&ssl=1" alt="Padel" class="pillar-img w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-amber-950/20 mix-blend-multiply"></div>
+                        <div class="absolute top-4 left-4 w-12 h-12 bg-amber-500 text-white font-bold text-xl flex items-center justify-center rounded-xl">03</div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-5 text-slate-950 tracking-tight">Horsemen Padel</h3>
+                    <p class="text-slate-700 leading-relaxed text-sm">
+                        Play. Connect. Grow. We believe real trust is forged naturally on the court, not just in meeting rooms. Horsemen Padel is an elite networking ecosystem where high-profile connections meet a vibrant sporting environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 max-w-7xl mx-auto bg-white rounded-3xl my-16 shadow-sm border border-gray-100 relative">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl font-extrabold mb-7 tracking-tight text-slate-950">Not Just Another Firm</h2>
+                <p class="text-slate-700 leading-relaxed mb-8">
+                    Horsemen Group exists for people who want clarity, control, and real results. While others provide reports, we provide architecture. We don't do generic advice. We step into companies, fix what's broken, and institutionalize success.
+                </p>
+                <div class="grid grid-cols-2 gap-6 text-sm font-bold">
+                    <div class="p-5 bg-gray-50 rounded-xl border border-gray-100">
+                        <span class="text-red-600 mr-2 italic">✔</span> Zero Generic Advice
+                    </div>
+                    <div class="p-5 bg-gray-50 rounded-xl border border-gray-100">
+                        <span class="text-orange-600 mr-2 italic">✔</span> Hands-on transformation
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-950 h-[450px] rounded-2xl overflow-hidden shadow-2xl relative border-4 border-amber-400">
+                <img src="Foto/Foto%20Bareng.jpg" alt="Horsemen Team" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-1000">
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent"></div>
+                <div class="absolute bottom-6 left-6 text-white text-xs font-bold uppercase tracking-widest bg-red-700 px-3 py-1 rounded">The Founders</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="py-24 px-6 max-w-7xl mx-auto bg-slate-950 rounded-3xl my-16 text-white shadow-xl border-t border-slate-800">
+        <h2 class="text-4xl font-extrabold text-center mb-20 tracking-tight">The Partners</h2>
+        <div class="grid md:grid-cols-3 gap-16">
+            <div class="text-center group">
+                <div class="w-44 h-44 bg-slate-800 rounded-full mx-auto mb-7 border-4 border-amber-400 grayscale group-hover:grayscale-0 transition duration-500 overflow-hidden shadow-2xl">
+                    <img src="Foto/arya.jpg" alt="Arya" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-xl mb-1.5">Arya Maheswara R.H.P.</h4>
+                <p class="text-amber-400 text-xs font-semibold mb-3 uppercase tracking-widest">The Builder</p>
+                <p class="text-slate-400 text-xs px-6 leading-relaxed">Focus on expansion, high-level structure, andoperational execution.</p>
+            </div>
+            <div class="text-center group">
+                <div class="w-44 h-44 bg-slate-800 rounded-full mx-auto mb-7 border-4 border-amber-400 grayscale group-hover:grayscale-0 transition duration-500 overflow-hidden shadow-2xl">
+                     <img src="Foto/emir.jpg" alt="Belmiro" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-xl mb-1.5">Belmiro Attira</h4>
+                <p class="text-amber-400 text-xs font-semibold mb-3 uppercase tracking-widest">The Compass</p>
+                <p class="text-slate-400 text-xs px-6 leading-relaxed">Strategic direction, long-term integrity, andethical framework.</p>
+            </div>
+            <div class="text-center group">
+                <div class="w-44 h-44 bg-slate-800 rounded-full mx-auto mb-7 border-4 border-amber-400 grayscale group-hover:grayscale-0 transition duration-500 overflow-hidden shadow-2xl">
+                     <img src="Foto/ijal.jpg" alt="Raihan" class="w-full h-full object-cover">
+                </div>
+                <h4 class="font-bold text-xl mb-1.5">Raihan Faizal Ali</h4>
+                <p class="text-amber-400 text-xs font-semibold mb-3 uppercase tracking-widest">The System</p>
+                <p class="text-slate-400 text-xs px-6 leading-relaxed">Architecting the engine—financial automation andscalable systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-950 text-white py-24 px-6 mt-16 border-t-8 border-red-700">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-4xl font-extrabold mb-7 tracking-tight shadow-text">Ready to build?</h2>
+                <p class="text-slate-400 mb-10 max-w-md">Jakarta, Indonesia. Your path to clarity, control, and real results starts here.</p>
+                <a href="mailto:contact@horsemen.group" class="text-2xl font-semibold border-b-4 border-amber-400 pb-2.5 hover:text-amber-300 transition duration-300 shadow-xl">contact@horsemen.group</a>
+            </div>
+            <div class="flex flex-col justify-end text-sm text-slate-500 md:text-right space-y-2">
+                <div class="text-2xl font-bold tracking-tighter text-white mb-4 uppercase">
+                    HORSEMEN<span class="text-amber-400">.</span> Group
+                </div>
+                <p>© 2026 Horsemen Group. All rights reserved.</p>
+                <p class="font-medium text-slate-400">Infrastructure. Intelligence. Integrity.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
